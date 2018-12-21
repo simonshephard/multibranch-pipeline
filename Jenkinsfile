@@ -16,8 +16,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'chmod 777 ./jenkins/scripts.test.sh'
-                sh './jenkins/scripts.test.sh'
+                sh 'chmod 777 ./jenkins/scripts/test.sh'
+                sh './jenkins/scripts/test.sh'
             }
         }
     }
